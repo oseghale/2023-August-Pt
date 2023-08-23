@@ -5,9 +5,9 @@
 - The String object is used to represent and manipulate a sequence of characters.
 - There are a few ways that you can create a string
 ```
-let name = 'Blake'
-let middleName = "Tanner"
-let lastName = `Watts`
+let name = 'William'
+let prefName = "Will"
+let lastName = `Duffy`
 ```
 - You are also able to use double quotes and singles quotes inside of a string by
 
