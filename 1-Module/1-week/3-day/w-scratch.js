@@ -5,18 +5,22 @@
 
 // let famousQuote = " \"You miss 100% of the shots you dont take. - Wayne Gretzky\" - Michael Scott "
 
-// let hello = "hello  space"
+// let hello = "hello"
+// console.log("1:", "hello".length)
+
+// console.log("hello"[])
+
 // console.log(hello[0])
 
+// console.log("hello world"[6])
 // console.log("hello 3"[6])
 // console.log("hello ! 3".length)
 // console.log("hello".length)
 // console.log(hello.length)
-// let taco = "test"
 
+// let cat = "test"
 
-// console.log("test".indexOf("k"));
-
+// console.log(cat.indexOf("z"));
 
 // console.log("bootcamp"[0]); // => 'b'
 // console.log("bootcamp"[1]); // => 'o'
@@ -43,6 +47,16 @@
 // }
 // console.log(newFunc("hello"))
 
+// let myDogName = "Lucky"
+
+// let myDogSound = "Woof"
+
+// console.log(`My DogName is my ${myDogName}` + " " + "this was hard")
+
+// const str1 = 'Hello';
+// const str2 = 'World';
+
+// console.log(str1.concat(' ', str2));
 
 // let myDog = "Lucky is"
 
@@ -66,7 +80,27 @@
 // let answer = average(2);
 // console.log(answer)
 
+// let num = (6+2) /2
+// let num2 = (9+2) /2
+// let num3= (8+2) /2
+// let num4 = (10+2) /2
 
+//math (x + y) / 2
+// console.log(num)
+
+// let someVariable
+
+function myNewAvg(num1, num2) {
+  // console.log((num1 + num2) / 2)
+
+  return (num1 + num2) / 2;
+}
+
+let answer = myNewAvg(1, 2); //return => (1 + 2) / 2
+
+console.log("this is the answer: ", answer);
+
+// console.log(myNewAvg(1, 2))
 
 // average(2, 7)
 // average(2, 2)
@@ -85,11 +119,11 @@
 // console.log(aName("hello"))
 
 // function personsHouse(person, word){
-    // console.log( person + "'s" + " house")
-    // return person + "'s" + " " + word
+// console.log( person + "'s" + " house")
+// return person + "'s" + " " + word
 //   }
 
-  // let willsHouse = personsHouse("Will")
+// let willsHouse = personsHouse("Will")
 //   console.log(personsHouse("Andres", "house"))
 
-  // console.log(willsHouse)
+// console.log(willsHouse)
